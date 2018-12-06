@@ -16,5 +16,12 @@ namespace WindowsFormsCiv
         {
             InitializeComponent();
         }
+
+        private void bSignIn_Click(object sender, EventArgs e)
+        {
+            Civilization civ_form1 = new Civilization();
+            civ_form1.Show();
+            this.Hide();
+        }
     }
 }

@@ -61,6 +61,7 @@
             this.bSignIn.TabIndex = 2;
             this.bSignIn.Text = "Sign In";
             this.bSignIn.UseVisualStyleBackColor = true;
+            this.bSignIn.Click += new System.EventHandler(this.bSignIn_Click);
             // 
             // Authorization
             // 
